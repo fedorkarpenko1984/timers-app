@@ -1,19 +1,16 @@
 # timers-task
 
-## Project setup
+## Установка зависимостей
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск в режиме разработке
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Сборка для продакшн
 ```
 yarn build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
