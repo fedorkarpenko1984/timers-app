@@ -1,0 +1,10 @@
+@font-face {
+    font-family: GottamPro;
+    src: url(./assets/fonts/GothamPro.woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
