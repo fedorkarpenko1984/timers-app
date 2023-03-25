@@ -43,7 +43,7 @@ export default {
       time++
       timeDisplay.value = timeFormatingHelper(time)
       const stopTime = (new Date()).getTime()
-      startTimer(startTime - stopTime)
+      startTimer(stopTime - startTime)
     }
 
     function startTimer(correction) {
