@@ -38,14 +38,16 @@ export default {
     let timerId = null
     let time = 0
 
-    function addTime() {
+    function iteration() {
+      const startTime = (new Date()).getTime()
       time++
       timeDisplay.value = timeFormatingHelper(time)
-      startTimer()
+      const stopTime = (new Date()).getTime()
+      startTimer(startTime - stopTime)
     }
 
-    function startTimer() {
-      timerId = setTimeout(addTime, 1000)
+    function startTimer(correction) {
+      timerId = setTimeout(iteration, 1000 - cirrection)
     }
 
     function startPauseButtonHandler() {
